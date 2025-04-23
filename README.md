@@ -1,4 +1,6 @@
 # bdchan-trip-searcher
+# THE SCRIPT IS NAMED 'bdchan.py'
+# DOWNLOAD IT FIRST.
 A fast, multi-process brute-force tool to find bdchan-style tripcodes that visually resemble any desired word or pattern. It uses SHA-256 + Base64 (first 6 chars) to generate tripcodes and compares them with a customizable wordlist using fuzzy matching (via RapidFuzz).
 
 A fast, multi-core Python tool to brute-force `bdchan`-style tripcodes and find ones that resemble custom words using fuzzy matching.
