@@ -1,0 +1,33 @@
+
+---
+
+## setup
+
+1. clone this repository or download the script.
+
+   **clone url (if needed):**
+   
+# git clone https://github.com/cINUSz/bdchan-trip-searcher.git
+
+
+2. edit `bdchan.py` to customize:
+- `prefix` (base input for generating tripcodes)
+- `suffix_length` (length of the brute-force portion)
+- `target_words` (list of words to match tripcodes against)
+
+---
+
+## usage
+
+once you've set your preferences, run the script with:
+# python3 bdchan.py
+
+
+the script will start generating tripcodes and checking them against the target words. matching results will be saved to `matches.txt` and displayed in the terminal in real-time.
+
+---
+
+## example match output
+
+here’s what you can expect in the terminal when a match is found:
+## admiNQ ≈ admin (83%) ← abc3dkaozowjskqh
